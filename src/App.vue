@@ -1,26 +1,28 @@
 <template>
   <div id="app">
-    <home></home>
+    <home/>
   </div>
 </template>
 
 <script>
-import Home from './components/home.vue'
+import Home from './components/Home'
 export default {
   name: 'app',
-  components:{Home}
+  components: {
+    Home
+  }
 }
 </script>
 
 <style>
-#app {
-   width: 1200px;
-   margin: 0 auto;
-   background-color: lightblue;
-   height: 100vh;
-   padding-top: 50px;
-}
-*{
-  margin: 0;
-}
+  body {
+    background-color: #00bcd4;
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
 </style>
